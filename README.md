@@ -63,9 +63,9 @@ Utilized **ensemble tree-based models** for their robustness on tabular financia
 ##  Ensembling
 
 Combined predictions from LightGBM, XGBoost, and CatBoost using **simple averaging**:
-\[
+$\[
 \text{Final Prediction} = \frac{\text{LightGBM} + \text{XGBoost} + \text{CatBoost}}{3}
-\]
+\]$
 to leverage the strengths of each model and reduce variance.
 
 ---
